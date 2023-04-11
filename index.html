@@ -11,6 +11,14 @@
     <h3>당신의 개인정보를 루팡하는 input 공부용</h3>
     <br><hr><br>
     <form>
+
+        <select name="test">
+            <option value="A">충옵바보</option>
+            <option value="B">하울바보</option>
+            <option value="C">처음바보</option>
+            <option value="D">하임바보</option>
+         </select><br><br>
+
         <ul>
             <li>아이디 &nbsp;
                 <input id="아이디" type="text" value="충옵은 바보야"></li><br><br>
@@ -28,7 +36,16 @@
                 <input id="나이" type="checkbox">모름
             </li><br><br>
             <li>전화번호 &nbsp;
-                <input id="전화번호" type="tel">
+                <select id="지역번호">
+                    <option value="A">010</option>
+                    <option value="B">02</option>
+                    <option value="C">051</option>
+                    <option value="D">032</option>
+                </select>
+                -
+                <input id="중간번호" type="text" size="5px;">
+                -
+                <input id="뒷번호" type="text" size="5px;">
             </li><br><br>
             <li>개인정보동의<br>
                 <input id="개인정보동의" type="radio" checked="checked">위 개인정보를 루팡하는것에 동의합니다.<br>
